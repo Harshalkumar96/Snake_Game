@@ -79,3 +79,12 @@ scoreboard.py
 -- Updates score every time food is eaten
 -- Displays "GAME OVER" message on collision with wall or tail
 
+-- Play Image
+![image](https://github.com/user-attachments/assets/1a35f369-f29e-4bda-8cc1-9245c0b49c58)
+
+🛠️ Built With
+🐍 Python 3
+📦 Turtle Graphics (standard library)
+🎲 Random module
+⭐️ Like this project?
+Consider giving it a ⭐ on GitHub and feel free to fork and modify it!
