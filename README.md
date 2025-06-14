@@ -27,64 +27,64 @@ snake_game/
 ├── scoreboard.py   # Scoreboard class: manages score display and game over<br>
 
 
-🚀 How to Run
-✅ Requirements
+🚀 How to Run<br>
+✅ Requirements<br>
 Python 3.x (recommended 3.7+)
 
-No external libraries required (uses built-in turtle and random)
+No external libraries required (uses built-in turtle and random)<br>
 
-▶️ Run Instructions
-Clone or download this repository
+▶️ Run Instructions<br>
+Clone or download this repository<br>
 
-Open a terminal in the project directory
+Open a terminal in the project directory<br>
 
-Run the game with:
-python main.py
-
-
-🧠 Code Walkthrough
-main.py
-Sets up the game screen (600x600, black background)
-Initializes game objects:
--- Snake – player-controlled object
--- Food – randomly placed item the snake eats
--- Scoreboard – displays current score
-
-Handles game loop:
--- Moves the snake forward continuously
--- Detects collisions with food, walls, or the snake’s own body
--- Ends the game if a collision occurs
+Run the game with:<br>
+python main.py<br>
 
 
+🧠 Code Walkthrough<br>
+main.py<br>
+Sets up the game screen (600x600, black background)<br>
+Initializes game objects:<br>
+-- Snake – player-controlled object<br>
+-- Food – randomly placed item the snake eats<br>
+-- Scoreboard – displays current score<br>
 
-snake.py
-Snake class manages the snake’s:
--- Initial creation with 3 square segments
--- Movement logic (segments follow head)
--- Growth mechanism (on eating food)
--- Directional control (up, down, left, right)
-Movement Note: The snake moves in discrete steps of 20 pixels. Direction changes are restricted to avoid 180° turns.
+Handles game loop:<br>
+-- Moves the snake forward continuously<br>
+-- Detects collisions with food, walls, or the snake’s own body<br>
+-- Ends the game if a collision occurs<br>
 
 
 
-food.py
--- Inherits from Turtle
--- Creates small blue circles as food
--- Randomly repositions food within game bounds on collision with the snake
+snake.py<br>
+Snake class manages the snake’s:<br>
+-- Initial creation with 3 square segments<br>
+-- Movement logic (segments follow head)<br>
+-- Growth mechanism (on eating food)<br>
+-- Directional control (up, down, left, right)<br>
+Movement Note: The snake moves in discrete steps of 20 pixels. Direction changes are restricted to avoid 180° turns.<br>
 
 
-scoreboard.py
--- Inherits from Turtle
--- Displays score at the top center of the screen
--- Updates score every time food is eaten
--- Displays "GAME OVER" message on collision with wall or tail
 
--- Play Image
+food.py<br>
+-- Inherits from Turtle<br>
+-- Creates small blue circles as food<br>
+-- Randomly repositions food within game bounds on collision with the snake<br>
+
+
+scoreboard.py<br>
+-- Inherits from Turtle<br>
+-- Displays score at the top center of the screen<br>
+-- Updates score every time food is eaten<br>
+-- Displays "GAME OVER" message on collision with wall or tail<br>
+
+-- Play Image<br>
 ![image](https://github.com/user-attachments/assets/1a35f369-f29e-4bda-8cc1-9245c0b49c58)
-
-🛠️ Built With
-🐍 Python 3
-📦 Turtle Graphics (standard library)
-🎲 Random module
-⭐️ Like this project?
-Consider giving it a ⭐ on GitHub and feel free to fork and modify it!
+<br>
+🛠️ Built With<br>
+🐍 Python 3<br>
+📦 Turtle Graphics (standard library)<br>
+🎲 Random module<br>
+⭐️ Like this project?<br>
+Consider giving it a ⭐ on GitHub and feel free to fork and modify it!<br>
