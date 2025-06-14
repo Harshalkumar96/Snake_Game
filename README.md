@@ -20,11 +20,11 @@ A classic Snake game built using Python’s built-in `turtle` module. This game 
 
 
 snake_game/
-│
-├── main.py         # Main script to run the game
-├── snake.py        # Snake class: controls snake creation, movement, growth
-├── food.py         # Food class: handles random food generation
-├── scoreboard.py   # Scoreboard class: manages score display and game over
+│<br>
+├── main.py         # Main script to run the game<br>
+├── snake.py        # Snake class: controls snake creation, movement, growth<br>
+├── food.py         # Food class: handles random food generation<br>
+├── scoreboard.py   # Scoreboard class: manages score display and game over<br>
 
 
 🚀 How to Run
